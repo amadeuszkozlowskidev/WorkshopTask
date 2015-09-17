@@ -1,0 +1,39 @@
+.window {
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+    border: 2px solid darkblue;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.color-result {
+    background: #FF9933;
+    height: 200px;
+    width: 50%;
+    border: solid 4px black;
+}
+
+.container{
+    max-width: 600px;
+}
